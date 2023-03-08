@@ -23,7 +23,7 @@
     {
       "name": "4",
       "setup": "",
-      "run": "build_heap.py",
+      "run": "python3 build_heap.py",
       "input": "F\r\n04",
       "output": "9990",
       "comparison": "included",
