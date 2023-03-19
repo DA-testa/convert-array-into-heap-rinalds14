@@ -23,8 +23,17 @@ def build_heap(data):
 
 
 def main():
-    n = int(input())
-    data = list(map(int, input().split()))
+    inputs=input()
+    if "I" in inputs:
+        n = int(input())
+        data = list(map(int, input().split()))
+     elif "F" in text:
+        f=input()
+        with open("tests/" + f, 'r') as f:
+            n=int(f.readline())
+            data=list(map(int, f.readline().split()))
+
+
     swaps = build_heap(data)
     print(len(swaps))
     for i, j in swaps:
