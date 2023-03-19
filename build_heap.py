@@ -27,7 +27,7 @@ def main():
     if "I" in inputs:
         n = int(input())
         data = list(map(int, input().split()))
-     elif "F" in text:
+     elif "F" in inputs:
         f=input()
         with open("tests/" + f, 'r') as f:
             n=int(f.readline())
