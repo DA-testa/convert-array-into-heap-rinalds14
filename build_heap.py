@@ -1,5 +1,5 @@
 # python3
-
+#221RDB489 Rinalds Dobelis 16.grupa
 
 def build_heap(data):
     swaps = []
